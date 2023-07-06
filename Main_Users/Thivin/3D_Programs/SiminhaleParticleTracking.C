@@ -877,7 +877,7 @@ int main(int argc, char *argv[])
 				// cout << " Dot Product : " << Ddot(N_TotalDOF,sol,sol) <<endl;
 
                 for (int i=0 ; i < 3*N_U; i++)
-                    sol[i] *= 3.18;
+                    sol[i] *= 0.796;
 				
 
 				if (TDatabase::ParamDB->WRITE_VTK)
